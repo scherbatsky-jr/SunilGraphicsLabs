@@ -21,7 +21,7 @@ check = 0
 fonttype = pygame.font.SysFont('Comic Sans MS',30)
 scoretext = fonttype.render("SCORE",False,red)
 scoreboard = fonttype.render(str(score),False,red)
-picture = pygame.image.load('pgame.png')
+
 #init
 headX = 250
 headY = 250
@@ -82,7 +82,6 @@ def drawStuff():
     pygame.draw.polygon(screen,black,((9,9),(601,9),(601,551),(9,551)),1)
     pygame.draw.polygon(screen,ground,((10,10),(600,10),(600,550),(10,550)),0)
     pygame.draw.polygon(screen,black,((650,10),(850,10),(850,200),(650,200)),1)
-    screen.blit(picture,(700,600))
     pygame.draw.circle(screen,red,(fruitX,fruitY),10)
     screen.blit(scoretext,(700,50))
     screen.blit(scoreboard,(700,100))
