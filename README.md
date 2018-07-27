@@ -1,2 +1,2 @@
-# snakeimpact
-Snake game built using pygame
+# 3D Transformations using Pygame
+
